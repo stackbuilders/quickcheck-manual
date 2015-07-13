@@ -14,8 +14,9 @@ cabal-version:       >= 1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:
+  exposed-modules:     Test.QuickCheck.Manual
   build-depends:       base >= 4.7 && < 5
+                     , QuickCheck == 2.7.6
   default-language:    Haskell2010
 
 test-suite quickcheck
